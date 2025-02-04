@@ -1,0 +1,15 @@
+[package]
+name = "hdsleep"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "hdsleep"
+path = "hdsleep.rs"
+
+[profile.release]
+opt-level = "z"
+lto = "fat"
+strip = true
+codegen-units = 1
+panic = "abort"
