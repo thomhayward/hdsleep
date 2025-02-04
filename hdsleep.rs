@@ -16,5 +16,5 @@ fn main() {
         .arg("-y")
         .args(&DEVICES)
         .status()
-        .expect("Failed to set timeout with hdparm");
+        .expect("Failed to put drive(s) to sleep");
 }
