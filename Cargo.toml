@@ -1,7 +1,8 @@
 [package]
 name = "hdsleep"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
+rust-version = "1.78.0"
 
 [[bin]]
 name = "hdsleep"
@@ -13,3 +14,6 @@ lto = "fat"
 strip = true
 codegen-units = 1
 panic = "abort"
+
+[dependencies]
+libc = "0.2.169"
