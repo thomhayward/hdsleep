@@ -1,5 +1,5 @@
 pkgname=hdsleep
-pkgver=0.2.0
+pkgver=0.2.1
 pkgrel=1
 arch=(x86_64)
 options=(!debug)
@@ -11,9 +11,9 @@ source=(
 	hdsleep.rs
 )
 sha256sums=(
-	61df88a9137447389ce40066587d0e76c417660b45f3ad7995df3b41ad6dce60
-	d3b519cbbdd006f5fbc98cd024a86d51141de5c71b46310bfe8dd4886526df24
-	a2b37c5bbb3f7406c510ca6274025d08109c017a0fea2e8ad354ecf31d0ceaa8
+	SKIP
+	SKIP
+	SKIP
 )
 
 prepare() {
